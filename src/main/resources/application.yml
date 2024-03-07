@@ -1,0 +1,61 @@
+postgres:
+  fd:
+    jdbc:
+      url: "${FD_POSTGRES_URL:jdbc:postgresql://localhost:5433/postgres?currentSchema=food_delivery}"
+      default-schema: "${FD_POSTGRES_DEFAULT_SCHEMA:food_delivery}"
+    username: "${FD_POSTGRES_USERNAME:postgres}"
+    password: "${FD_POSTGRES_PWD:postgres}"
+    pool:
+      size: "${POSTGRES_POOL_SIZE:5}"
+    table:
+      customer: customer
+      food: food
+      category: category
+      restaurant: restaurant
+      order: order
+      order-detail: order_detail
+      driver: driver
+      user-session: user_session
+      product: product
+      menu: menu
+      customer-address: customer_address
+      restaurant-category-mapping: restaurant_category_mapping
+      voucher: voucher
+      restaurant-voucher-mapping: restaurant_voucher_mapping
+      cart: cart
+      cart-item: cart_item
+
+
+
+redis:
+  host: "${REDIS_HOST:127.0.0.1}"
+  port: "${REDIS_PORT:6379}"
+  password: "${REDIS_PASSWORD:3yamW4eczznAW4Sd}"
+param:
+  token:
+      valid-time: "${TOKEN_VALID_TIME: 600000}"
+      signing-key: "${TOKEN_SIGNING_KEY:5Pw2_aZNHJbknP5eQewYVLqWNWFtWESW}"
+  maxAddress: 5
+otp:
+  try-time: 5
+  real-otp: "1212"
+salt: "MDIxZXdxb2Zkc2UzaWV3cmVvdzJwZXdmMw"
+email:
+  host: "${EMAIL_HOST:smtp.gmail.com}"
+  port: "${EMAIL_PORT:587}"
+  username: "${EMAIL_USERNAME:nguyenuyendhcn@gmail.com}"
+  password: "${EMAIL_PASSWORD:dtwniwkpgtneodpq}"
+  subject: "${EMAIL_SUBJECT:Change password}"
+  body: "${EMAIL_BODY:Please enter following OTP for changing password: \n 1212 \n OTP is valid in 5 minutes.}"
+  properties:
+    mail:
+      transport:
+        protocol: smtp
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+          required: true
+        timeout: 1000
+        connection-timeout: 1000
+
