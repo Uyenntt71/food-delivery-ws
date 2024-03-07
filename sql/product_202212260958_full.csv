@@ -1,0 +1,34 @@
+"id","name","menu_id","description","unit","price","active","created_at"
+"2dd0eba1-fcce-4307-ac7f-675504c8b010",Khoai tây chiên lắc phô mai,"66101c78-d4ba-47af-bd4c-466d618c6c75",,suất,60000.00,true,2022-12-23 16:57:54
+"0ab0dafe-7d77-46fc-80fe-c399b51bcf92",Mực bento,"66101c78-d4ba-47af-bd4c-466d618c6c75",Màu ngầu nhiên,gói,20000.00,true,2022-12-23 16:57:54
+"891f8f2e-7e71-4837-889d-cddee74d9b2d",Cơm Thố Bò,a4a844c9-de10-4915-b8b5-465033947e39,"Sự kết hợp hài hòa giữa thịt bò thăn mềm cùng hành tây, thêm chút cần tây sẽ là món ăn ưa thích cho tin đồ thích ăn thịt bò.",suất,55000.00,true,2022-12-23 16:19:04
+"15addca2-5859-47cf-86ab-daf22245a105",Cơm Thố Bò - Gà,dc6741ef-6afb-4a57-b672-66ae368f2d31,Sự kết hợp hài hòa giữa thịt bò cùng thịt gà sẽ là sự lựa chọn thông minh cho quý khách nếu muốn thưởng thức 2 món khác nhau.,suất,65000.00,true,2022-12-23 16:19:04
+"8cf6cad1-133c-4d48-b71e-386e75c4f856",Cơm Thố Đặc biệt,a4a844c9-de10-4915-b8b5-465033947e39,"",suất,69000.00,true,2022-12-23 16:19:04
+"8847b637-cc58-432e-8eca-cc9a69448d02",Cơm Thố Xá Xíu,b464432a-5742-4b12-8d5a-a7fa9cc3048f,"1/2 gà - 1/2 xá xíu, có canh xương gà hầm, củ cải, cà rốt và kim chi muối ăn kèm",suất,55000.00,true,2022-12-23 16:19:04
+"764492b7-39ca-40ab-9ca5-b86005718474",Cơm Thố Gà Xíu,b464432a-5742-4b12-8d5a-a7fa9cc3048f,"1/2 gà - 1/2 xá xíu, có canh xương gà hầm, củ cải, cà rốt và kim chi muối ăn kèm",suất,60000.00,true,2022-12-23 16:19:04
+a1d7a712-9e9f-4742-9b6f-c230ae8ec59c,Cơm Thố Gà Nướng,"834eb610-8abe-4cde-8e89-dfd3a86c05fa","",suất,50000.00,true,2022-12-23 16:19:04
+f65bbdea-b8e1-4147-b54d-cbb63204a262,Song Lạc Hồng Tiên,"8745b0c4-ec56-44e3-ad51-18e018f61835",,Cốc,42000.00,true,2022-12-23 16:26:41
+a048c0d1-8f86-4787-932a-455e91f64606,Hồng Dâu Nữ Hoàng,"6d1ab39b-5c71-4feb-b8ef-d7c375d2293a",,Cốc,40000.00,true,2022-12-23 16:26:41
+"8a91cb2e-58b6-4cc7-af9b-bc586869aea2",Trà Xanh Chanh Leo,"8f55b1e2-286d-4c6d-9fe4-753b2f5d3f8e",,Cốc,40000.00,true,2022-12-23 16:26:41
+b6fecfe6-c7b8-4522-87e2-1e7ddc0d91b3,Trà Sữa Pozza,"8f55b1e2-286d-4c6d-9fe4-753b2f5d3f8e",Vị hồng trà sữa đặc biệt + Toping trân châu đen mềm dai + Toping Puding trứng thơm ngon!,Cốc,42000.00,true,2022-12-23 16:26:41
+b301ba10-c4ec-4552-9e99-03c3539b916e,Bún Bò Huế Thường,b789c1b0-b932-465b-809a-e253c6cb8902,,Suất,40000.00,true,2022-12-23 16:43:56
+"80be0ed7-2ae4-475a-9a66-ffb9484cd759",Bún Bò Huế Đặc Biệt,b789c1b0-b932-465b-809a-e253c6cb8902,,Suất,60000.00,true,2022-12-23 16:43:56
+d6e2a1da-8b02-436c-9368-51b19a3f6b1d,Bún Ngan nước,b789c1b0-b932-465b-809a-e253c6cb8902,kèm măng ngâm,Suất,40000.00,true,2022-12-23 16:43:56
+"6c3c4076-c995-420d-a1c5-cfd0cccf5378",Miến trộn ngan,b789c1b0-b932-465b-809a-e253c6cb8902,"Măng ớt, giá đã bao gồm 2000đ tiền hộp",Suất,40000.00,true,2022-12-23 16:43:56
+b5f34c2c-c11b-42f3-860e-36e8d101db57,Bún ngan trộn,"308fbed6-4cf1-47c5-9130-960158fb695c",Đã bao gồm 5k tiền hộp,Suất,40000.00,true,2022-12-23 16:43:56
+"3de0dff4-e1c7-451a-a724-deccd0bd460d",Bánh nhỏ 2 tim hoa viền trên dưới,"129f630c-86e8-4e5c-baa3-f6e9fa2bb18a",,chiếc,150000.00,true,2022-12-23 16:47:49
+dc684aac-4a2a-4fae-b55f-9be6326c415e,Bánh nhỏ 2 mặt dâu tây,"129f630c-86e8-4e5c-baa3-f6e9fa2bb18a",,chiếc,180000.00,true,2022-12-23 16:47:49
+"67b2fbad-3e25-4ac0-b233-ce562c979eb4",Bánh gấu nhỏ,f12e7868-85e1-4a1c-bcd3-7e45a0f2c1be,,chiếc,130000.00,true,2022-12-23 16:47:49
+"5fc2d41a-0550-420e-90bb-b6394bc48c13",Bánh nhỏ 1 yến mạch vị socola,"25cdbc81-7bfa-4920-9c09-dd0dd76b87c3",,chiếc,130000.00,true,2022-12-23 16:47:49
+fc7d81d1-ccec-499d-af31-d66fc8499f04,Cơm gạo lứt bò sốt tiêu đen,"940af7ce-0168-49e8-a730-e53e807952eb",,suất,90000.00,true,2022-12-23 17:02:21
+"6e41e325-b5b0-489d-8cd0-ca47dcb1613f",Dồi sụn nướng,"66101c78-d4ba-47af-bd4c-466d618c6c75",,chiếc,10000.00,true,2022-12-23 16:52:08
+"982178d7-80f0-4346-a4c8-b40c74742862",Thịt xiên nướng,"66101c78-d4ba-47af-bd4c-466d618c6c75",,chiếc,11000.00,true,2022-12-23 16:52:08
+"381ea37f-7003-4d39-abee-b71493e04366",Bánh mì 2 xiên thịt,"66101c78-d4ba-47af-bd4c-466d618c6c75",,chiếc,27000.00,true,2022-12-23 16:52:08
+"02659354-3d41-4884-8b63-1490d0e4574a",Nem chua rán,"66101c78-d4ba-47af-bd4c-466d618c6c75",,chiếc,6000.00,true,2022-12-23 16:52:08
+"1478cdb3-a419-472d-9b9e-a84d40a20217",Bánh mì kẹp 3 xiên,"66101c78-d4ba-47af-bd4c-466d618c6c75",,chiếc,35000.00,true,2022-12-23 16:52:08
+"8f33542b-3ded-42e5-b97e-ccd58da6bddd",Khoai tây chiên,"66101c78-d4ba-47af-bd4c-466d618c6c75","Khoai tây cọng Mỹ thơm, bùi, giòn",suất,57000.00,true,2022-12-23 16:57:54
+"058f6479-04c8-4965-bd78-4c1d7d08184a",Snack Nachos bò,"66101c78-d4ba-47af-bd4c-466d618c6c75",,suất,120000.00,true,2022-12-23 16:57:54
+"6b9dcf8a-8e12-4146-a806-2d6d22b1fbed",Cơm gạo lứt bò sốt Teriyaki,"940af7ce-0168-49e8-a730-e53e807952eb",,suất,85000.00,true,2022-12-23 17:02:21
+b134275b-c797-4602-8412-5dab17126077,Salad lườn ngỗng hun khói,"940af7ce-0168-49e8-a730-e53e807952eb",,suất,90000.00,true,2022-12-23 17:02:21
+a4be3388-2527-4a52-ad27-d324e92b28da,Bún gạo lứt lường ngỗng hun khói,"940af7ce-0168-49e8-a730-e53e807952eb",,suất,75000.00,true,2022-12-23 17:02:21
+"6f9e8b2c-38e3-445a-9c46-43367ded931a",Cơm gạo lứt rau củ Vengan,"940af7ce-0168-49e8-a730-e53e807952eb",,suất,50000.00,true,2022-12-23 17:02:21

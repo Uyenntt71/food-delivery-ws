@@ -1,0 +1,452 @@
+{
+	"info": {
+		"_postman_id": "6cad4287-b92b-4233-bfb1-d0d58f9774b1",
+		"name": "food-delivery-ws",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"phoneNumber\": \"84335606970\",\n  \"name\": \"uyen nguyen\",\n  \"email\": \"nguyenuyendhcn@gmail.co\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/register",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user/login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var body = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"TOKEN\", body.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"0335606978\",\n  \"pwd\":\"Uyen@123\",\n  \"certificate\": \"string1\",\n  \"brand\": \"string1\",\n  \"model\": \"string1\",\n  \"appVersion\": \"string1\",\n  \"os\": \"string1\",\n  \"deviceName\": \"string1\",\n  \"osVersion\": \"string1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/login",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/user/register/verify-otp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"otp\": \"1212\",\n  \"customerId\": \"3658425a-1041-4fa3-8b67-51e415ca069b\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/register/verify-otp",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"register",
+						"verify-otp"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/user/register/save-info",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var body = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"TOKEN\", body.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"secretKey\": \"2blBL5Q4dkLrHSNv0mFmlC0w8YBbbqASJJai8FMdhibrHJ0IvzuCOi7tpU9JfPt0\",\n  \"pwd\": \"Uyen@123\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/register/save-info",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"register",
+						"save-info"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "1212",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/user/forgot-password",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"recipient\": \"nguyenuyendhcn@gmail.comm\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/forgot-password",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"forgot-password"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "nguyenuyendhcngmail.com",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/user/reset-password",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"secretKey\": \"PXJfSSZJ59FBM91OK7rlFijKYTh8YDHqU+Ut+1TctUm4htgr4x5UBgTrbN2GB/Kh\",\n  \"password\": \"1212\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/reset-password",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"reset-password"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "1212",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/user/address",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Trường Đại học Tài nguyên và Môi trường Hà Nội\",\n    \"address\": \"41A Đ. Phú Diễn, Phú Diễn, Bắc Từ Liêm, Hà Nội, Việt Nam\",\n    \"lat\": 21.04718773179117,\n    \"lng\": 105.76213181165815\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/address",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"address"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/category",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/category",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"category"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "Co Nhue, Bac Tu Liem, Ha Noi",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/category/{id}/restaurant",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/category/5af56034-ed8a-4398-a963-d2b6e99e98f6/restaurants",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"category",
+						"5af56034-ed8a-4398-a963-d2b6e99e98f6",
+						"restaurants"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "Co Nhue, Bac Tu Liem, Ha Noi",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "5af56034-ed8a-4398-a963-d2b6e99e98f6",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{BASE_URL}}/user/addresses",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/user/addresses",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"user",
+						"addresses"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
